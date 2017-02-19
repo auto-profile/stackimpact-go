@@ -16,7 +16,7 @@ import (
 
 	redigo "github.com/garyburd/redigo/redis"
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/stackimpact/stackimpact-go"
+	"github.com/auto-profile/stackimpact-go"
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 	goredis "gopkg.in/redis.v5"

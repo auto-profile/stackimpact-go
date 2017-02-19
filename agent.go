@@ -1,7 +1,7 @@
 package stackimpact
 
 import (
-	"github.com/stackimpact/stackimpact-go/internal"
+	"github.com/auto-profile/stackimpact-go/internal"
 )
 
 const ErrorGroupRecoveredPanics string = "Recovered panics"

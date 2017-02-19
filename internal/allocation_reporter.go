@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"runtime/pprof"
 
-	"github.com/stackimpact/stackimpact-go/internal/pprof/profile"
+	"github.com/auto-profile/stackimpact-go/internal/pprof/profile"
 )
 
 type recordSorter []runtime.MemProfileRecord

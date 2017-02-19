@@ -42,10 +42,10 @@ Sign up for a free account at [stackimpact.com](https://stackimpact.com/).
 Install the Go agent by running
 
 ```
-go get github.com/stackimpact/stackimpact-go
+go get github.com/auto-profile/stackimpact-go
 ```
 
-And import the package `github.com/stackimpact/stackimpact-go` in your application.
+And import the package `github.com/auto-profile/stackimpact-go` in your application.
 
 
 #### Configuring the agent
@@ -77,7 +77,7 @@ import (
   	"fmt"
   	"net/http"
 
-  	"github.com/stackimpact/stackimpact-go"
+  	"github.com/auto-profile/stackimpact-go"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {

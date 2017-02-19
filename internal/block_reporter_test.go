@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	pprofTrace "github.com/stackimpact/stackimpact-go/internal/pprof/trace"
+	pprofTrace "github.com/auto-profile/stackimpact-go/internal/pprof/trace"
 )
 
 var verbose bool = false

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	pprofTrace "github.com/stackimpact/stackimpact-go/internal/pprof/trace"
+	pprofTrace "github.com/auto-profile/stackimpact-go/internal/pprof/trace"
 )
 
 type filterFuncType func(funcName string) bool
